@@ -1,0 +1,17 @@
+[build]
+  publish = "public"
+  command = "npm install"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[dev]
+  command = "npm start"
+  port = 5000
+  publish = "public"
+  autoLaunch = true
