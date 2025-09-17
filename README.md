@@ -38,7 +38,7 @@ npm install
 npm start
 ```
 
-4. Open your browser and navigate to `http://localhost:5000`
+4. Open your browser and navigate to `https://photo-converter-app.onrender.com/
 
 ## 🎯 Usage
 
